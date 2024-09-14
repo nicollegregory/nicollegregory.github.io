@@ -14,9 +14,10 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 
 }
-p1{
-    background-color: lightblue;
+p{
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+ul{
+  border-style: dotted;
+}
