@@ -10,14 +10,13 @@ h1{
 
 }
 h2{
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
+    border-style: dotted;
 
 }
 p{
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }
-ul{
-  border-style: dotted;
-}
+
