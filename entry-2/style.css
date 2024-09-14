@@ -1,5 +1,9 @@
+body{
+    background-color: rgb(192, 207, 221);
+}
 title{
    text-transform: uppercase;
+   
 
 }
 h1{
@@ -7,12 +11,17 @@ h1{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
+    color: midnightblue;
+    text-decoration-line:underline;
+    text-decoration-color: midnightblue;
+   
 
 }
 h2{
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     border-style: dotted;
+    color:rgb(50, 50, 139)
 
 }
 p{
