@@ -1,5 +1,6 @@
 body{
     background-color: rgb(192, 207, 221);
+    border-style:dashed
 }
 title{
    text-transform: uppercase;
@@ -20,12 +21,12 @@ h1{
 h2{
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    border-style: dotted;
     color:rgb(50, 50, 139)
 
 }
 p{
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
 }
 
