@@ -1,6 +1,6 @@
 body{
     background-color: rgb(192, 207, 221);
-    border-style:dashed
+  
 }
 title{
    text-transform: uppercase;
@@ -15,6 +15,7 @@ h1{
     color: midnightblue;
     text-decoration-line:underline;
     text-decoration-color: midnightblue;
+    border-style:double
    
 
 }
@@ -30,6 +31,9 @@ p{
     color: midnightblue;
 }
 b{
+    color:midnightblue
+}
+li{
     color:midnightblue
 }
 
