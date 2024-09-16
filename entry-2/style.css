@@ -21,9 +21,7 @@ h1{
 h2{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(50, 50, 109)
-    border-style: dotted;
-
+    color:rgb(50, 50, 109);
 }
 p{
     font-size: 14px;
@@ -35,5 +33,6 @@ b{
 }
 li{
     color:midnightblue
+    border-style: dotted;
 }
 
