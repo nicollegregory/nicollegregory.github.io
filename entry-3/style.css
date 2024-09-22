@@ -7,6 +7,8 @@ h2{
     font-size: 20px;
     text-align: center;
     color:rgb(71, 23, 23)
+    text-decoration-line: underline;
+    text-decoration-color: rgb(71, 23, 23);
 }
 .song-title{
     font-weight: 700;
@@ -14,4 +16,9 @@ h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     text-align:left
+}
+li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px; 
+    color:rgb(71, 23, 23)
 }
