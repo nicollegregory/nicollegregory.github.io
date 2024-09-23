@@ -86,15 +86,19 @@ li{
 
   }
 ol{
-    border: 2px solid white;
+border: 2px solid white;
   outline: rgb(71, 23, 23) solid 10px;
   margin: auto;  
   padding: 26px;
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
 .date{
     
     color:rgb(71, 23, 23);
     text-align: right;
+    font-size: 26px;
+    font-family:'Times New Roman', Times, serif;
+    
 
 }
