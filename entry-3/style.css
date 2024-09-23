@@ -83,6 +83,10 @@ li{
     font-family:'Times New Roman', Times, serif;
     font-size: 26px;
     width:750px;
+    border: 2px solid white;
+  outline: rgb(71, 23, 23) solid 10px;
+  margin: auto;  
+  padding: 26px;
 
   }
 ol{
