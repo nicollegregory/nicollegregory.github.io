@@ -7,7 +7,12 @@ h2{
     font-size: 20px;
     text-align: center;
     color:rgb(71, 23, 23)
-    text-
+ 
+}
+h1{
+    text-align: center;
+    color:rgb(71, 23, 23)
+    text-decoration
 }
 .song-title{
     font-weight: 700;
@@ -57,4 +62,8 @@ li{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  .song-of-week {
+    background-color:rgba(211, 148, 160, 0.795); ;
+    color:rgb(71, 23, 23);
   }
