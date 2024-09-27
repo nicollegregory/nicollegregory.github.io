@@ -94,7 +94,7 @@ body{
  .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr; 
-  align-items: center; 
+  align-items: right; 
  }
 
 .photo img {
