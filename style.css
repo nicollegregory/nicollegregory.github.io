@@ -88,9 +88,12 @@ body{
   }
   
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+ p{
+  background-color: rgba(211, 148, 160, 0.795); ;
+  color:darkred;
+  text-align: right;
+  font-size: 26px;
+  text-decoration: dashed;
+  text-decoration-color: darkred;
+ }
    
