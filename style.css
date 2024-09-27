@@ -102,4 +102,11 @@ body{
   height: auto;
 }
 
+iframe {
+  background-color:rgba(211, 148, 160, 0.795);
+  align-items: center;
+  width: 75%;
+
+}
+
    
