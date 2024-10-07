@@ -125,9 +125,12 @@ li{
    
   }
   
+  .image:hover {
+    filter:blur(10px);
+  }
   .container:hover .overlay {
     opacity: 70%;
-    filter:blur(10px);
+    
   }
   .text {
     color: rgb(24, 37, 70);
