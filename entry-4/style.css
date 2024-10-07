@@ -53,3 +53,11 @@ h2{
 .hover-tr:hover{
   letter-spacing: 35px;
 }
+
+
+.song-of-week{
+    text-align: center;
+    background-color:rgb(119, 146, 195);
+    color:rgb(24, 37, 70)
+    
+}
