@@ -84,3 +84,47 @@ li{
     font-size: 20px; 
     color:rgb(24, 37, 70);
 }
+
+#grow{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(24, 37, 70);
+    transition: 2s;
+}
+
+#grow:hover{
+    font-size: 40px;
+    color:palevioletred;
+
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgb(119, 146, 195);
+    transition-timing-function: ease-in-out;
+    transition: 1s 
+   
+  }
+  
+  .container:hover .overlay {
+    opacity: 70%;
+  }
