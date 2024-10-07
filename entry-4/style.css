@@ -65,7 +65,7 @@ h2{
 
 #white{
     color: rgb(24, 37, 70);
-    transition: 3s
+    transition: 2s
 }
 
 #white:hover {
@@ -78,4 +78,9 @@ p{
     font-size: 26px;
     color: rgb(24, 37, 70);
     
+}
+li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px; 
+    color:rgb(24, 37, 70);
 }
