@@ -20,7 +20,7 @@ body{
   }
   
   .parent:hover .space{
-    opacity: 1;
+    opacity: 50%;
   }
   h1{
     font-family: 'Times New Roman', Times, serif;
