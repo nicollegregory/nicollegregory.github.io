@@ -37,3 +37,19 @@ body{
     
 
 }
+h2{
+    text-transform: uppercase;
+    background-color:rgb(119, 146, 195);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(24, 37, 70)
+}
+.hover-tr{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:-0.1px;
+ transition: 4s;
+}
+.hover-tr:hover{
+  letter-spacing: 35px;
+}
