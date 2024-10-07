@@ -59,10 +59,23 @@ h2{
 .song-of-week{
     text-align: center;
     background-color:rgb(119, 146, 195);
-    color:rgb(24, 37, 70)
+    color:rgb(24, 37, 70);
     
 }
 
 #white{
-    color:white
+    color: rgb(24, 37, 70);
+    transition: 3s
+}
+
+#white:hover {
+    color:white;
+}
+
+p{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(24, 37, 70);
+    
 }
