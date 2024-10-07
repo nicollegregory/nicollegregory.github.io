@@ -22,6 +22,18 @@ body{
     opacity: 1;
   }
   h1{
+    font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
     color:rgb(24, 37, 70)
+    
   }
+  .date{
+    
+    color:rgba(148, 151, 211, 0.795);
+    font-weight: 500;
+    text-align: right;
+    font-size: 26px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
