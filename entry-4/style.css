@@ -40,11 +40,18 @@ body{
 }
 h2{
     text-transform: uppercase;
+    letter-spacing:-0.1px;
+    transition: 3s;
     background-color:rgb(119, 146, 195);
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
     color:rgb(24, 37, 70)
+   
+}
+h2:hover{
+  color:white;
+  letter-spacing: 35px;
 }
 .hover-tr{
     font-family:'Times New Roman', Times, serif;
@@ -60,7 +67,13 @@ h2{
     text-align: center;
     background-color:rgb(119, 146, 195);
     color:rgb(24, 37, 70);
+    transition: 3s;
+    letter-spacing:-0.1px;
     
+}
+.song-of-week:hover{
+  color:white;
+  letter-spacing: 35px;
 }
 
 #white{
@@ -83,6 +96,11 @@ li{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px; 
     color:rgb(24, 37, 70);
+    text-align: center;
+    transition: 2.5s;
+}
+li:hover{
+  font-size:45px;
 }
 
 #grow{
@@ -133,7 +151,7 @@ li{
     
   }
   .text {
-    color: rgb(24, 37, 70);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -141,3 +159,4 @@ li{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+  
