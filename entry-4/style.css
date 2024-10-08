@@ -100,7 +100,7 @@ li{
     transition: 2.5s;
 }
 li:hover{
-  font-size:45px;
+  font-size:35px;
 }
 
 #grow{
@@ -216,5 +216,5 @@ li:hover{
     opacity: 1;
     right: 0;
   }
-  
+
   
