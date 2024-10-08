@@ -205,4 +205,24 @@ li:hover{
     right: 0;
   }
 
+  .moon-rotate{
+    width:460px;
+    background-color:rgb(30, 47, 97);
+    padding:10px;
+}
+.moon-rotate div{
+    width:30px;
+    height:30px;
+    background-color:rgb(29, 29, 32);
+    display:inline-block;
+    margin:6px;
+    
+  transition: 2s;
+}
+.moon-rotate:hover> div{
+  rotate: 180deg;
+  border-radius: 50%;
+  background-color:aliceblue
+ 
+}
   
