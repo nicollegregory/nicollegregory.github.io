@@ -1,271 +1,165 @@
-h1{
-  
-  transition:2.5s;
- transition-timing-function:ease-in-out;
-   text-transform: uppercase;
-    font-family: "ff-providence-sans-web-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
-   font-size: 30px;
-   text-align: center;
-   color:darkred;
- 
- 
-   
-}
-h1:hover{
- letter-spacing: 35px;
-}
-
-.second{
- left:0px;
- right:0px;
- font-family: "ff-providence-sans-web-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
-   font-size: 30px; 
- 
-}
-h2{
-
-  font-family: "josefin-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-    transition:1.5s;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 1px;
-   color:darkred
-  
-  
-   
-   
-   
-
-}
-.first{
- filter:blur(3px);
- transition:1.5s;
- font-family: "josefin-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-.first:hover{
- filter:blur(0px);
-}
-
 body{
-   background-color: rgba(229, 189, 197, 0.785);
+  background-color:rgba(229, 189, 197, 0.785);
 }
-.button {
+  .topnav {
+      background-color: rgba(211, 148, 160, 0.795);
+      position: sticky;
+      top: 0;
+      min-height: 48px;
+ 
+    }
 
-   background-color: rgba(211, 148, 160, 0.795); ;
-   border: none;
-   color:darkred;
-   text-align: center;
- font-family: "ff-providence-sans-web-pro", sans-serif;
+    .topnav a {
+      list-style-type: none;
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: "josefin-sans", sans-serif;
 font-weight: 400;
 font-style: normal;
-   font-size: 30px;
-   font-size: 28px;
-   padding: 20px;
-   width: 200px;
-   transition: all 0.5s;
-   cursor: pointer;
-   margin: 5px;
+    color:darkred;
+    }
 
- 
- 
- }
- 
- .button span {
-   cursor: pointer;
-   display: inline-block;
-   position: relative;
-   transition: 0.5s;
- }
- 
- .button span:after {
-   content: '\00bb';
-   opacity: 0;
-   top: 0;
-   right: -20px;
-   transition: 0.5s;
- }
- 
- .button:hover span {
-   padding-right: 25px;
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    .topnav .icon {
+      display: none;
+    }
 
- }
- 
- .button:hover span:after {
-   opacity: 1;
-   right: 0;
- }
+    .dropdown {
+      float: right;
+     
+    }
 
- img{
-   position: relative;
-   scale: 100%;
-  margin-left: 100%;
-}
- 
- hr{
-   color:darkred;
-
-
- }
- 
-
-p{
- color:darkred;
- text-align: center;
-  font-family: "josefin-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
- font-size: 20px;
- text-decoration: dashed;
- text-decoration-color: darkred; 
-transition:1s;
-}
-p:hover{
- background-color: rgba(211, 148, 160, 0.795); 
-}
-
-
-.photo img {
- position:relative;
- width: 350px; 
- height: 200px;
- margin:auto;
- left:535px;
- top:0px;
-}
-
-
-
-  
-.text{
- position:absolute;
-margin:auto;
- right:20px;
- top:10px;
- font-family: "amatic-sc", sans-serif;
-font-weight: 400;
-font-style: normal;
- font-size:60px;
-}
-
-.topnav {
-     background-color: rgba(211, 148, 160, 0.795);
-     position: sticky;
-     top: 0;
-     min-height: 48px;
-
-   }
-
-   .topnav a {
-     list-style-type: none;
-     float: right;
-     display: block;
-     color: #f2f2f2;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
+    .dropdown .dropbtn {
+      font-size: 17px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
      font-family: "josefin-sans", sans-serif;
 font-weight: 400;
 font-style: normal;
-   color:darkred;
-   }
+    color:darkred;
+      margin: 0;
+    }
 
-   .topnav .icon {
-     display: none;
-   }
-
-   .dropdown {
-     float: right;
-    
-   }
-
-   .dropdown .dropbtn {
-     font-size: 17px;
-     border: none;
-     outline: none;
-     color: white;
-     padding: 14px 16px;
-     background-color: inherit;
-    font-family: "josefin-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-   color:darkred;
-     margin: 0;
-   }
-
-   .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: rgb(96, 1, 1);
-     min-width: 160px;
-     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-     z-index: 10000000;
-     overflow:scroll;
-   }
-
-   .dropdown-content a {
-     float: none;
-     color: white;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-     text-align: left;
-      max-height: 70vh;
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(96, 1, 1);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 10000000;
       overflow:scroll;
-   }
+    }
 
-   .topnav a:hover,
-   .dropdown:hover .dropbtn {
-     background-color: darkred;
-     color: white;
-   }
+    .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+       max-height: 70vh;
+       overflow:scroll;
+    }
 
-   .dropdown-content a:hover {
-     background-color: #ddd;
-     color: rgb(96, 1, 1);
-     
-   }
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: darkred;
+      color: white;
+    }
 
-   .dropdown:hover .dropdown-content {
-     display: block;
-        max-height: 70vh;
-      overflow:scroll;
-   }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      color: rgb(96, 1, 1);
+      
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+         max-height: 70vh;
+       overflow:scroll;
+    }
 .parent-flex {
- display: grid;
- grid-template-columns: auto auto auto;
- background-color: darkred;
- padding: 5px;
- gap:5px;
- color:darkred;
- font-family: "ff-providence-sans-web-pro", sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: darkred;
+  padding: 5px;
+  gap:5px;
+  color:darkred;
+  font-family: "ff-providence-sans-web-pro", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
 .parent-flex .child1 {
- background-color:rgba(229, 189, 197, 0.785);
+  background-color:rgba(229, 189, 197, 0.785);
+  
  
-
 }
 
 .child1{
-background-color: rgba(229, 189, 197, 0.785);
- border: 1px solid rgba(0, 0, 0, 0.8);
- padding: 10px;
- font-size: 25px;
- text-align: center;
+ background-color: rgba(229, 189, 197, 0.785);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
 
-
+ 
+}
+  h1{
+    color:darkred;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align:center;
+  }
+  .first{
+    color:darkred;
+    font-family: "josefin-sans", sans-       serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    font-size:15 px;
+  filter:blur(3px);
+  transition:1.5s;
+  }
+ .first:hover{
+  filter:blur(0px);
 }
 
+ .photo img {
+ display:flex;
+  width: 350px; 
+  height: 200px;
+  margin:auto;
+  left:535px;
+  top:0px;
+}
 
-
+ .second{
+    color:darkred;
+   font-family: "ff-providence-sans-web-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+   text-align:center;
+  }
+  
+  p{
+    display:inline-block;
+     text-align:center;
+    font-family: "josefin-sans", sans-       serif;
+    font-weight: 400;
+    font-style: normal;
+    color:darkred;
+    font-size:20px;
+    transition:1s;
+  }
+  p:hover{
+    background-color:darkred;
+    color:white;
+  }
