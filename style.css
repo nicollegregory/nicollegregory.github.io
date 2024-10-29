@@ -105,6 +105,7 @@ font-style: normal;
 .child1{
  background-color: rgba(229, 189, 197, 0.785);
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-color:darkred;
   padding: 10px;
   font-size: 25px;
   text-align: center;
