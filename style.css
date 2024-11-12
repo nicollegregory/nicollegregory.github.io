@@ -19,7 +19,6 @@ body {
   }
 }
 
-/* Header Styles */
 h1 {
   transition: letter-spacing 2.5s ease-in-out;
   text-transform: uppercase;
@@ -82,11 +81,18 @@ p:hover {
 
 
 img {
-  width: 100%;  
-  max-width: 100%;  
+  width: 500px;  
+ height:auto;  
   padding: 20px;
   transition: transform 2s;
   margin: 0;  
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
 }
 
 img:hover {
@@ -223,6 +229,7 @@ font-style: normal;
   grid-template-columns: repeat(3, 1fr);  
   gap: 15px;
   padding: 20px;
+background-color:darkred;
 }
 
 .child1 {
