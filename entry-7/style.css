@@ -167,7 +167,7 @@ li:hover{
 .vinyl:hover {
     transform: rotate(720deg);
     opacity: 100%;
-  left:160px;
+
 }
 
 
@@ -178,6 +178,7 @@ li:hover{
     margin-left: 200px;
     display: block;
 }
+
 
 
 
