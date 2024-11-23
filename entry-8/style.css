@@ -155,20 +155,17 @@ p {
   transition:2s;
 }
 
-
-ol{
-  
+ol {
     display: flex;
     flex-direction: column; 
     height: 100vh; 
     justify-content: center; 
     padding: 0; 
     margin: 0;
-  
-   
 }
+
 li {
-     font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: rgb(21, 13, 24);
@@ -176,12 +173,18 @@ li {
     transition: 2.5s;
     width: 50%;
     align-self: center; 
-
+    margin-bottom: 20px; 
+  transition:2s;
 }
+
+li:last-child {
+    margin-bottom: 0;
+}
+
 li:hover{
   font-size:30px;
   color:white;
-   letter-spacing: 15px;
+   letter-spacing: 10px;
 }
 
 
@@ -331,30 +334,6 @@ h3:hover{
         padding-left: 100%;
         animation: week 15s linear infinite;
     }
-    .backgmusic{
-      padding:90px;
-        width: 30%;
-        max-width: 800px;
-        height: auto; 
-        display: block; 
-        margin: 0 auto; 
-    }
-    .audio-container {
-      background-color: rgb(70, 58, 44); 
-      padding: 10px;             
-      border-radius: 8px;    
-      display: flex; 
-      height: auto; 
-      margin: auto;
-      justify-content: center;    
-      width: fit-content;       
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  }
-  
-  audio {
-      border-radius: 4px; 
-      max-width: 100%;    
-  }
 
 @keyframes week {
   0% {
@@ -466,6 +445,30 @@ h4{
     object-fit: contain;
     margin: auto; 
   }
+.backgmusic{
+  padding:90px;
+    width: 30%;
+    max-width: 800px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+.audio-container {
+    background-color: rgb(70, 58, 44); 
+    padding: 10px;             
+    border-radius: 8px;    
+    display: flex; 
+    height: auto; 
+    margin: auto;
+    justify-content: center;    
+    width: fit-content;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+audio {
+    border-radius: 4px; 
+    max-width: 100%;    
+}
 .info {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
