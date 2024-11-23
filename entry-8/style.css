@@ -339,6 +339,22 @@ h3:hover{
         display: block; 
         margin: 0 auto; 
     }
+    .audio-container {
+      background-color: rgb(70, 58, 44); 
+      padding: 10px;             
+      border-radius: 8px;    
+      display: flex; 
+      height: auto; 
+      margin: auto;
+      justify-content: center;    
+      width: fit-content;       
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  audio {
+      border-radius: 4px; 
+      max-width: 100%;    
+  }
 
 @keyframes week {
   0% {
