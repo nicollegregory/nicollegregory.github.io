@@ -331,6 +331,14 @@ h3:hover{
         padding-left: 100%;
         animation: week 15s linear infinite;
     }
+    .backgmusic{
+      padding:90px;
+        width: 30%;
+        max-width: 800px;
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+    }
 
 @keyframes week {
   0% {
