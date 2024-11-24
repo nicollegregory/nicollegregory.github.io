@@ -20,7 +20,7 @@ else {
 
 imageElement.style.display = "block";
 }
-////
+
 function beatles() {
  
   let choice = document.getElementById("answer2").value.trim().toLowerCase();
@@ -35,7 +35,7 @@ function beatles() {
 
   imageElement.style.display = "block";
 }
-////
+
 function wheatus() {
  
   let choice = document.getElementById("answer3").value.trim().toLowerCase();
@@ -51,7 +51,7 @@ function wheatus() {
   imageElement.style.display = "block";
 }
 
-////
+
 function michael() {
  
   let choice = document.getElementById("answer4").value.trim().toLowerCase();
@@ -67,7 +67,6 @@ function michael() {
   imageElement.style.display = "block";
 }
 
-////
 function television() {
  
   let choice = document.getElementById("answer5").value.trim().toLowerCase();
@@ -82,7 +81,6 @@ function television() {
 
   imageElement.style.display = "block";
 }
-///
 
 window.onload = function() {
   var audio = document.getElementById('myAudio');
