@@ -471,10 +471,6 @@ h4{
     height: auto; 
     display: block; 
     margin: 0 auto; 
-    scale: 3;
-}
-.backgmusic:hover{
-  scale:4.5;
 }
 .audio-container {
     background-color: rgb(99, 136, 166); 
