@@ -72,13 +72,43 @@ p {
   font-weight: 400;
   font-size: 30px;
   transition: color 3s, padding 3s;
-  padding: 50px;
+  padding: 30px;
 }
 
 p:hover {
   color: darkred;
 }
+h5{
+  
 
+letter-spacing: -0.1px;
+font-family: "ff-providence-sans-web-pro", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+ padding:40px;
+border-radius:35px;
+  color: darkred;
+  transition: 2s;
+  margin:auto;
+text-align:center;
+}
+h5:hover{
+letter-spacing:7px;
+  font-size:45px;
+}
+h6{
+  font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    transition: 2s;
+  text-transform: capitalize;
+  text-align: center;
+    color: darkred;
+}
+h6:hover{
+  color: white;
+}
 
 img {
 padding:150px;
@@ -100,7 +130,7 @@ width: 60%;
 }
 
 img:hover {
-  transform: scale(2.5);  
+  transform: scale(2);  
 }
 
 
@@ -238,24 +268,25 @@ background-color:darkred;
 }
 
 .child1 {
+  color: rgb(96, 1, 1);
   background-color: rgba(229, 189, 197, 0.785);
-
   padding: 20px;
   font-size: 25px;
   text-align: center;
-  transition: background-color 0.3s;
+  transition: 0.5s;
 }
 
 .child1:hover {
-  background-color: #ddd;
-  color: rgb(96, 1, 1);
+  background-color: rgba(229, 189, 197, 0.785);
+  color: white;
+  font-size:30px;
 }
 
 h3{
   letter-spacing: -0.1px;
 font-family: "ff-providence-sans-web-pro", sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
  padding:40px;
 border-radius:35px;
@@ -277,7 +308,7 @@ padding:90px;
   margin: 0 auto; 
 }
 .audio-container {
-    background-color: darkred;
+  background-color: darkred;
   padding: 40px;             
   border-radius: 8px;    
   display: flex; 
