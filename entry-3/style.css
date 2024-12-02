@@ -284,7 +284,7 @@ font-style: normal;
     .topnav a:hover,
     .dropdown:hover .dropbtn {
       background-color: rgb(135, 87, 97);
-      color: rgb(99, 56, 65);
+      color: white;
     }
 
     .dropdown-content a:hover {
