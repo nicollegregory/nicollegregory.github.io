@@ -39,7 +39,7 @@ body {
 
 .container iframe {
   width:40vw;
-  height: auto;
+  height: 50vh;
   animation: float 3s ease-in-out infinite;
   transition: transform 0.2s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
