@@ -38,8 +38,8 @@ body {
 
 
 .container iframe {
-  width: 300px;
-  height: auto;
+  width:40vw;
+  height: 100vh;
   animation: float 3s ease-in-out infinite;
   transition: transform 0.2s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
@@ -188,4 +188,3 @@ display: block;
 max-height: 70vh;
 overflow:scroll;
 }
-
